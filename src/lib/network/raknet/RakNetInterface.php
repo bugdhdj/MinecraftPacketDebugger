@@ -19,6 +19,7 @@ declare(strict_types=1);
 namespace jacknoordhuis\minecraftpacketdebugger\lib\network\raknet;
 
 use jacknoordhuis\minecraftpacketdebugger\lib\MinecraftPacketDebugger;
+use pocketmine\network\mcpe\protocol\BatchPacket;
 use pocketmine\network\mcpe\protocol\PacketPool as MinecraftPacketPool;
 use raklib\protocol\ACK;
 use raklib\protocol\Datagram;
@@ -166,7 +167,20 @@ class RakNetInterface {
 				return;
 			}
 
-			$this->logger->logMinecraft(MinecraftPacketPool::getPacket($packet->buffer), $serverSide);
+			try {
+				$batch = new BatchPacket($packet->buffer);
+				$batch->decode();
+				foreach ($batch->getPackets() as $buf) {
+					try {
+						$p = MinecraftPacketPool::getPacket($buf);
+						$p->decode();
+						$this->logger->logMinecraft($p, $serverSide);
+					} catch (\Throwable $e) {
+					}
+				}
+			} catch (\Throwable$e) {
+				$this->logger->logMinecraft(MinecraftPacketPool::getPacket($packet->buffer), $serverSide);
+			}
 		} catch(\Throwable $e) {
 			$this->logger->logUnknownMinecraft($packet, $serverSide);
 		}

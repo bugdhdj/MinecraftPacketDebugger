@@ -4,27 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a14e4ce881dbd9e9e039c3cac2be5d8",
+    "content-hash": "b954fc30205273f7d15901bd1aba72a4",
     "packages": [
         {
             "name": "adhocore/json-comment",
-            "version": "v0.0.7",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/adhocore/php-json-comment.git",
-                "reference": "135356c7e7336ef59924f1d921c770045f937a76"
+                "reference": "fc2f76979f0a44a5f5bc2a2b600d0762fe0e78e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adhocore/php-json-comment/zipball/135356c7e7336ef59924f1d921c770045f937a76",
-                "reference": "135356c7e7336ef59924f1d921c770045f937a76",
-                "shasum": ""
+                "url": "https://api.github.com/repos/adhocore/php-json-comment/zipball/fc2f76979f0a44a5f5bc2a2b600d0762fe0e78e7",
+                "reference": "fc2f76979f0a44a5f5bc2a2b600d0762fe0e78e7",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
-                "php": ">=5.4"
+                "ext-ctype": "*",
+                "php": ">=7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5"
+                "phpunit/phpunit": "^6.5 || ^7.5 || ^8.5"
             },
             "type": "library",
             "autoload": {
@@ -48,47 +55,17 @@
                 "json",
                 "strip-comment"
             ],
-            "time": "2018-08-01T12:27:26+00:00"
-        },
-        {
-            "name": "daverandom/callback-validator",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DaveRandom/CallbackValidator.git",
-                "reference": "d87a08cddbc6099816ed01e50ce25cdfc43b542f"
+            "support": {
+                "issues": "https://github.com/adhocore/php-json-comment/issues",
+                "source": "https://github.com/adhocore/php-json-comment/tree/1.1.2"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DaveRandom/CallbackValidator/zipball/d87a08cddbc6099816ed01e50ce25cdfc43b542f",
-                "reference": "d87a08cddbc6099816ed01e50ce25cdfc43b542f",
-                "shasum": ""
-            },
-            "require": {
-                "ext-reflection": "*",
-                "php": ">=7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^6.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "DaveRandom\\CallbackValidator\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
+            "funding": [
                 {
-                    "name": "Chris Wright",
-                    "email": "cw@daverandom.com"
+                    "url": "https://paypal.me/ji10",
+                    "type": "custom"
                 }
             ],
-            "description": "Tools for validating callback signatures",
-            "time": "2017-04-03T15:22:41+00:00"
+            "time": "2021-04-09T03:06:06+00:00"
         },
         {
             "name": "nxtlvlsoftware/static-constructors",
@@ -96,17 +73,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NxtLvLSoftware/php-static-constructors.git",
-                "reference": "098642564352b71cbf757ae46a74140079a80d85"
+                "reference": "bfc74528cb0791b45944edcb350b6d47962be491"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NxtLvLSoftware/php-static-constructors/zipball/098642564352b71cbf757ae46a74140079a80d85",
-                "reference": "098642564352b71cbf757ae46a74140079a80d85",
-                "shasum": ""
+                "url": "https://api.github.com/repos/NxtLvLSoftware/php-static-constructors/zipball/bfc74528cb0791b45944edcb350b6d47962be491",
+                "reference": "bfc74528cb0791b45944edcb350b6d47962be491",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require-dev": {
                 "phpunit/phpunit": "^8"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -127,25 +111,34 @@
                 }
             ],
             "description": "Brings static class constructors to PHP!",
-            "time": "2019-02-20T08:38:24+00:00"
+            "support": {
+                "issues": "https://github.com/NxtLvLSoftware/php-static-constructors/issues",
+                "source": "https://github.com/NxtLvLSoftware/php-static-constructors/tree/master"
+            },
+            "time": "2019-02-25T06:26:55+00:00"
         },
         {
             "name": "pocketmine/binaryutils",
-            "version": "0.1.8",
+            "version": "0.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/BinaryUtils.git",
-                "reference": "33f511715d22418c03368b49b45a6c25d6b33806"
+                "reference": "0abee38d4e2861621f262c79a2a3d699d8a697f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/BinaryUtils/zipball/33f511715d22418c03368b49b45a6c25d6b33806",
-                "reference": "33f511715d22418c03368b49b45a6c25d6b33806",
+                "url": "https://api.github.com/repos/pmmp/BinaryUtils/zipball/0abee38d4e2861621f262c79a2a3d699d8a697f4",
+                "reference": "0abee38d4e2861621f262c79a2a3d699d8a697f4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2",
+                "php": "^7.2 || ^8.0",
                 "php-64bit": "*"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.67",
+                "phpstan/phpstan-strict-rules": "^0.12.4"
             },
             "type": "library",
             "autoload": {
@@ -158,28 +151,236 @@
             ],
             "description": "Classes and methods for conveniently handling binary data",
             "support": {
-                "source": "https://github.com/pmmp/BinaryUtils/tree/0.1.8",
+                "source": "https://github.com/pmmp/BinaryUtils/tree/0.1.13",
                 "issues": "https://github.com/pmmp/BinaryUtils/issues"
             },
-            "time": "2019-01-16T17:31:44+00:00"
+            "time": "2021-01-15T14:19:13+00:00"
         },
         {
-            "name": "pocketmine/math",
-            "version": "0.2.2",
+            "name": "pocketmine/callback-validator",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pmmp/Math.git",
-                "reference": "b755d3fb7025c4ddb7d9d6df0ba7e0b65125e51c"
+                "url": "https://github.com/pmmp/CallbackValidator.git",
+                "reference": "64787469766bcaa7e5885242e85c23c25e8c55a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/Math/zipball/b755d3fb7025c4ddb7d9d6df0ba7e0b65125e51c",
-                "reference": "b755d3fb7025c4ddb7d9d6df0ba7e0b65125e51c",
+                "url": "https://api.github.com/repos/pmmp/CallbackValidator/zipball/64787469766bcaa7e5885242e85c23c25e8c55a2",
+                "reference": "64787469766bcaa7e5885242e85c23c25e8c55a2",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-reflection": "*",
+                "php": "^7.1 || ^8.0"
+            },
+            "replace": {
+                "daverandom/callback-validator": "*"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.59",
+                "phpstan/phpstan-strict-rules": "^0.12.4",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DaveRandom\\CallbackValidator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Wright",
+                    "email": "cw@daverandom.com"
+                }
+            ],
+            "description": "Fork of daverandom/callback-validator - Tools for validating callback signatures",
+            "support": {
+                "issues": "https://github.com/pmmp/CallbackValidator/issues",
+                "source": "https://github.com/pmmp/CallbackValidator/tree/1.0.3"
+            },
+            "time": "2020-12-11T01:45:37+00:00"
+        },
+        {
+            "name": "pocketmine/classloader",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/ClassLoader.git",
+                "reference": "9757928424652393b178a3760073113aa7c9911b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmmp/ClassLoader/zipball/9757928424652393b178a3760073113aa7c9911b",
+                "reference": "9757928424652393b178a3760073113aa7c9911b",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-pthreads": "~3.2.0",
+                "ext-reflection": "*",
+                "php": "^7.2 || ^8.0"
+            },
+            "conflict": {
+                "pocketmine/spl": "<0.4"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.66",
+                "phpstan/phpstan-strict-rules": "^0.12.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Ad-hoc autoloading components used by PocketMine-MP",
+            "support": {
+                "issues": "https://github.com/pmmp/ClassLoader/issues",
+                "source": "https://github.com/pmmp/ClassLoader/tree/0.1.2"
+            },
+            "time": "2021-01-15T00:40:47+00:00"
+        },
+        {
+            "name": "pocketmine/log",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/Log.git",
+                "reference": "830b44a2cf96ef703c550abe64302f230231ca49"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmmp/Log/zipball/830b44a2cf96ef703c550abe64302f230231ca49",
+                "reference": "830b44a2cf96ef703c550abe64302f230231ca49",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "conflict": {
+                "pocketmine/spl": "<0.4"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "0.12.67",
+                "phpstan/phpstan-strict-rules": "^0.12.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Logging components used by PocketMine-MP and related projects",
+            "support": {
+                "issues": "https://github.com/pmmp/Log/issues",
+                "source": "https://github.com/pmmp/Log/tree/0.2.1"
+            },
+            "time": "2021-01-15T14:32:41+00:00"
+        },
+        {
+            "name": "pocketmine/log-pthreads",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/LogPthreads.git",
+                "reference": "e477ecf6ec214fdd4415ea1da3fdd9d73bf699ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmmp/LogPthreads/zipball/e477ecf6ec214fdd4415ea1da3fdd9d73bf699ea",
+                "reference": "e477ecf6ec214fdd4415ea1da3fdd9d73bf699ea",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-pthreads": "~3.2.0",
+                "php": "^7.2 || ^8.0",
+                "pocketmine/log": "^0.2.0"
+            },
+            "conflict": {
+                "pocketmine/spl": "<0.4"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.66",
+                "phpstan/phpstan-strict-rules": "^0.12.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "./src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Logging components specialized for pthreads used by PocketMine-MP and related projects",
+            "support": {
+                "issues": "https://github.com/pmmp/LogPthreads/issues",
+                "source": "https://github.com/pmmp/LogPthreads/tree/0.1.3"
+            },
+            "time": "2021-01-15T00:35:49+00:00"
+        },
+        {
+            "name": "pocketmine/math",
+            "version": "0.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pmmp/Math.git",
+                "reference": "43057cb8c179a9859677b496a788db922fd5cfc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pmmp/Math/zipball/43057cb8c179a9859677b496a788db922fd5cfc3",
+                "reference": "43057cb8c179a9859677b496a788db922fd5cfc3",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.0",
+                "php": "^7.2 || ^8.0",
                 "php-64bit": "*"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.67",
+                "phpstan/phpstan-strict-rules": "^0.12.4"
             },
             "type": "library",
             "autoload": {
@@ -192,30 +393,36 @@
             ],
             "description": "PHP library containing math related code used in PocketMine-MP",
             "support": {
-                "source": "https://github.com/pmmp/Math/tree/0.2.2",
+                "source": "https://github.com/pmmp/Math/tree/0.2.6",
                 "issues": "https://github.com/pmmp/Math/issues"
             },
-            "time": "2019-01-04T15:42:36+00:00"
+            "time": "2021-01-15T14:25:11+00:00"
         },
         {
             "name": "pocketmine/nbt",
-            "version": "0.2.6",
+            "version": "0.2.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/NBT.git",
-                "reference": "92eaf84dd61f700d3ec02ebd01b606cb5b1590d4"
+                "reference": "9f82ca4d7f97fcd9a566e44b63c4f18a7657ae82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/NBT/zipball/92eaf84dd61f700d3ec02ebd01b606cb5b1590d4",
-                "reference": "92eaf84dd61f700d3ec02ebd01b606cb5b1590d4",
+                "url": "https://api.github.com/repos/pmmp/NBT/zipball/9f82ca4d7f97fcd9a566e44b63c4f18a7657ae82",
+                "reference": "9f82ca4d7f97fcd9a566e44b63c4f18a7657ae82",
                 "shasum": ""
             },
             "require": {
                 "ext-zlib": "*",
-                "php": ">=7.2.0",
+                "php": "^7.2 || ^8.0",
                 "php-64bit": "*",
-                "pocketmine/binaryutils": "^0.1.0"
+                "pocketmine/binaryutils": "^0.1.9"
+            },
+            "require-dev": {
+                "irstea/phpunit-shim": "^7.5 || ^8.0",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.80",
+                "phpstan/phpstan-strict-rules": "^0.12.4"
             },
             "type": "library",
             "autoload": {
@@ -233,29 +440,28 @@
             ],
             "description": "PHP library for working with Named Binary Tags",
             "support": {
-                "source": "https://github.com/pmmp/NBT/tree/0.2.6",
+                "source": "https://github.com/pmmp/NBT/tree/0.2.18",
                 "issues": "https://github.com/pmmp/NBT/issues"
             },
-            "time": "2019-02-07T16:28:11+00:00"
+            "time": "2021-03-11T00:09:04+00:00"
         },
         {
             "name": "pocketmine/pocketmine-mp",
-            "version": "3.5.13",
+            "version": "3.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/PocketMine-MP.git",
-                "reference": "9afa0e5483d8d5da1f01a4333713fe392e071824"
+                "reference": "a7cd0810020af15fb3d79127c77cf576085cd4cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/PocketMine-MP/zipball/9afa0e5483d8d5da1f01a4333713fe392e071824",
-                "reference": "9afa0e5483d8d5da1f01a4333713fe392e071824",
+                "url": "https://api.github.com/repos/pmmp/PocketMine-MP/zipball/a7cd0810020af15fb3d79127c77cf576085cd4cc",
+                "reference": "a7cd0810020af15fb3d79127c77cf576085cd4cc",
                 "shasum": ""
             },
             "require": {
-                "adhocore/json-comment": "^0.0.7",
-                "daverandom/callback-validator": "dev-master",
-                "ext-bcmath": "*",
+                "adhocore/json-comment": "^1.1",
+                "composer-runtime-api": "^2.0",
                 "ext-ctype": "*",
                 "ext-curl": "*",
                 "ext-date": "*",
@@ -265,21 +471,32 @@
                 "ext-openssl": "*",
                 "ext-pcre": "*",
                 "ext-phar": "*",
-                "ext-pthreads": ">=3.1.7dev",
+                "ext-pthreads": "~3.2.0",
                 "ext-reflection": "*",
+                "ext-simplexml": "*",
                 "ext-sockets": "*",
                 "ext-spl": "*",
                 "ext-yaml": ">=2.0.0",
                 "ext-zip": "*",
                 "ext-zlib": ">=1.2.11",
-                "php": ">=7.2.0",
+                "php": "^7.3 || ^8.0",
                 "php-64bit": "*",
-                "pocketmine/binaryutils": "^0.1.0",
+                "pocketmine/binaryutils": "^0.1.9",
+                "pocketmine/callback-validator": "^1.0.2",
+                "pocketmine/classloader": "^0.1.0",
+                "pocketmine/log": "^0.2.0",
+                "pocketmine/log-pthreads": "^0.1.0",
                 "pocketmine/math": "^0.2.0",
-                "pocketmine/nbt": "^0.2.6",
-                "pocketmine/raklib": "^0.12.0",
+                "pocketmine/nbt": "^0.2.18",
+                "pocketmine/raklib": "^0.12.7",
                 "pocketmine/snooze": "^0.1.0",
-                "pocketmine/spl": "^0.3.0"
+                "pocketmine/spl": "^0.4.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "0.12.84",
+                "phpstan/phpstan-phpunit": "^0.12.6",
+                "phpstan/phpstan-strict-rules": "^0.12.2",
+                "phpunit/phpunit": "^9.2"
             },
             "type": "project",
             "autoload": {
@@ -287,12 +504,26 @@
                     "": [
                         "src"
                     ]
-                }
+                },
+                "files": [
+                    "src/pocketmine/CoreConstants.php",
+                    "src/pocketmine/GlobalConstants.php",
+                    "src/pocketmine/VersionInfo.php"
+                ]
             },
             "autoload-dev": {
                 "psr-4": {
                     "pocketmine\\": "tests/phpunit/"
                 }
+            },
+            "scripts": {
+                "make-devtools": [
+                    "@php -dphar.readonly=0 tests/plugins/DevTools/src/DevTools/ConsoleScript.php --make tests/plugins/DevTools --out plugins/DevTools.phar"
+                ],
+                "make-server": [
+                    "@composer install --no-dev --classmap-authoritative",
+                    "@php -dphar.readonly=0 build/server-phar.php"
+                ]
             },
             "license": [
                 "LGPL-3.0"
@@ -300,35 +531,49 @@
             "description": "A server software for Minecraft: Pocket Edition written in PHP",
             "homepage": "https://pmmp.io",
             "support": {
-                "source": "https://github.com/pmmp/PocketMine-MP/tree/3.5.13",
+                "source": "https://github.com/pmmp/PocketMine-MP/tree/3.19.1",
                 "issues": "https://github.com/pmmp/PocketMine-MP/issues"
             },
-            "time": "2019-02-22T17:56:44+00:00"
+            "funding": [
+                {
+                    "type": "patreon",
+                    "url": "https://www.patreon.com/pocketminemp"
+                },
+                {
+                    "type": "custom",
+                    "url": "https://github.com/pmmp/PocketMine-MP#donate"
+                }
+            ],
+            "time": "2021-04-25T19:34:13+00:00"
         },
         {
             "name": "pocketmine/raklib",
-            "version": "0.12.2",
+            "version": "0.12.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/RakLib.git",
-                "reference": "54a36d55eeba0a182e00439920ee2fcfa8c72bf3"
+                "reference": "9cce458b8bfde3e4dfdbf70c659fc7b7fe26b5c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/RakLib/zipball/54a36d55eeba0a182e00439920ee2fcfa8c72bf3",
-                "reference": "54a36d55eeba0a182e00439920ee2fcfa8c72bf3",
+                "url": "https://api.github.com/repos/pmmp/RakLib/zipball/9cce458b8bfde3e4dfdbf70c659fc7b7fe26b5c4",
+                "reference": "9cce458b8bfde3e4dfdbf70c659fc7b7fe26b5c4",
                 "shasum": ""
             },
             "require": {
-                "ext-bcmath": "*",
-                "ext-pthreads": ">=3.1.7dev",
+                "ext-pthreads": "~3.2.0",
                 "ext-sockets": "*",
-                "php": ">=7.2.0",
+                "php": "^7.2 || ^8.0",
                 "php-64bit": "*",
                 "php-ipv6": "*",
-                "pocketmine/binaryutils": "^0.1.0",
-                "pocketmine/snooze": "^0.1.0",
-                "pocketmine/spl": "^0.3.0"
+                "pocketmine/binaryutils": "^0.1.9",
+                "pocketmine/log": "^0.2.0",
+                "pocketmine/log-pthreads": "^0.1.0",
+                "pocketmine/snooze": "^0.1.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "0.12.76",
+                "phpstan/phpstan-strict-rules": "^0.12.2"
             },
             "type": "library",
             "autoload": {
@@ -341,28 +586,33 @@
             ],
             "description": "A RakNet server implementation written in PHP",
             "support": {
-                "source": "https://github.com/pmmp/RakLib/tree/0.12.2",
+                "source": "https://github.com/pmmp/RakLib/tree/0.12.11",
                 "issues": "https://github.com/pmmp/RakLib/issues"
             },
-            "time": "2019-01-21T14:17:30+00:00"
+            "time": "2021-02-15T11:21:05+00:00"
         },
         {
             "name": "pocketmine/snooze",
-            "version": "0.1.1",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/Snooze.git",
-                "reference": "b7bd231bdb75e69300cac89ccd515fc731c38c40"
+                "reference": "70b5e7937a06878dd321a3182ceb76d56298f2cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/Snooze/zipball/b7bd231bdb75e69300cac89ccd515fc731c38c40",
-                "reference": "b7bd231bdb75e69300cac89ccd515fc731c38c40",
+                "url": "https://api.github.com/repos/pmmp/Snooze/zipball/70b5e7937a06878dd321a3182ceb76d56298f2cd",
+                "reference": "70b5e7937a06878dd321a3182ceb76d56298f2cd",
                 "shasum": ""
             },
             "require": {
                 "ext-pthreads": ">=3.1.7dev",
-                "php-64bit": ">=7.2.0"
+                "php-64bit": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.76",
+                "phpstan/phpstan-strict-rules": "^0.12.4"
             },
             "type": "library",
             "autoload": {
@@ -375,32 +625,35 @@
             ],
             "description": "Thread notification management library for code using the pthreads extension",
             "support": {
-                "source": "https://github.com/pmmp/Snooze/tree/0.1.1",
+                "source": "https://github.com/pmmp/Snooze/tree/0.1.5",
                 "issues": "https://github.com/pmmp/Snooze/issues"
             },
-            "time": "2019-01-04T15:54:45+00:00"
+            "time": "2021-02-22T16:16:12+00:00"
         },
         {
             "name": "pocketmine/spl",
-            "version": "0.3.2",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/SPL.git",
-                "reference": "7fd53857cd000491ba69e8db865792a024dd2c49"
+                "reference": "6b08b7cf8c4afa17139c9a1b3bf1b408531de161"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pmmp/SPL/zipball/7fd53857cd000491ba69e8db865792a024dd2c49",
-                "reference": "7fd53857cd000491ba69e8db865792a024dd2c49",
+                "url": "https://api.github.com/repos/pmmp/SPL/zipball/6b08b7cf8c4afa17139c9a1b3bf1b408531de161",
+                "reference": "6b08b7cf8c4afa17139c9a1b3bf1b408531de161",
                 "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.8"
             },
             "type": "library",
             "autoload": {
-                "exclude-from-classmap": [
-                    "stubs"
-                ],
                 "classmap": [
-                    "./"
+                    "./src"
                 ]
             },
             "license": [
@@ -408,31 +661,96 @@
             ],
             "description": "Standard library files required by PocketMine-MP and related projects",
             "support": {
-                "source": "https://github.com/pmmp/SPL/tree/master"
+                "source": "https://github.com/pmmp/SPL/tree/0.4.2",
+                "issues": "https://github.com/pmmp/SPL/issues"
             },
-            "time": "2018-08-12T15:17:39+00:00"
+            "time": "2021-01-15T15:15:23+00:00"
         },
         {
-            "name": "symfony/console",
-            "version": "v4.2.3",
+            "name": "psr/container",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/console.git",
-                "reference": "1f0ad51dfde4da8a6070f06adc58b4e37cbb37a4"
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/1f0ad51dfde4da8a6070f06adc58b4e37cbb37a4",
-                "reference": "1f0ad51dfde4da8a6070f06adc58b4e37cbb37a4",
-                "shasum": ""
+                "url": "https://api.github.com/repos/php-fig/container/zipball/8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
-                "php": "^7.1.3",
-                "symfony/contracts": "^1.0",
-                "symfony/polyfill-mbstring": "~1.0"
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/1.1.1"
+            },
+            "time": "2021-03-05T17:36:06+00:00"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v4.4.22",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "36bbd079b69b94bcc9c9c9e1e37ca3b1e7971625"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/36bbd079b69b94bcc9c9c9e1e37ca3b1e7971625",
+                "reference": "36bbd079b69b94bcc9c9c9e1e37ca3b1e7971625",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.1.3",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/polyfill-php73": "^1.8",
+                "symfony/polyfill-php80": "^1.15",
+                "symfony/service-contracts": "^1.1|^2"
             },
             "conflict": {
                 "symfony/dependency-injection": "<3.4",
+                "symfony/event-dispatcher": "<4.3|>=5",
+                "symfony/lock": "<4.4",
                 "symfony/process": "<3.3"
             },
             "provide": {
@@ -440,11 +758,12 @@
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/config": "~3.4|~4.0",
-                "symfony/dependency-injection": "~3.4|~4.0",
-                "symfony/event-dispatcher": "~3.4|~4.0",
-                "symfony/lock": "~3.4|~4.0",
-                "symfony/process": "~3.4|~4.0"
+                "symfony/config": "^3.4|^4.0|^5.0",
+                "symfony/dependency-injection": "^3.4|^4.0|^5.0",
+                "symfony/event-dispatcher": "^4.3",
+                "symfony/lock": "^4.4|^5.0",
+                "symfony/process": "^3.4|^4.0|^5.0",
+                "symfony/var-dumper": "^4.3|^5.0"
             },
             "suggest": {
                 "psr/log": "For using the console logger",
@@ -453,11 +772,6 @@
                 "symfony/process": ""
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.2-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Console\\": ""
@@ -480,94 +794,49 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony Console Component",
+            "description": "Eases the creation of beautiful and testable command line interfaces",
             "homepage": "https://symfony.com",
-            "time": "2019-01-25T14:35:16+00:00"
-        },
-        {
-            "name": "symfony/contracts",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/contracts.git",
-                "reference": "1aa7ab2429c3d594dd70689604b5cf7421254cdf"
+            "support": {
+                "source": "https://github.com/symfony/console/tree/v4.4.22"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/1aa7ab2429c3d594dd70689604b5cf7421254cdf",
-                "reference": "1aa7ab2429c3d594dd70689604b5cf7421254cdf",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.3"
-            },
-            "require-dev": {
-                "psr/cache": "^1.0",
-                "psr/container": "^1.0"
-            },
-            "suggest": {
-                "psr/cache": "When using the Cache contracts",
-                "psr/container": "When using the Service contracts",
-                "symfony/cache-contracts-implementation": "",
-                "symfony/service-contracts-implementation": "",
-                "symfony/translation-contracts-implementation": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Contracts\\": ""
-                },
-                "exclude-from-classmap": [
-                    "**/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
+            "funding": [
                 {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
                 },
                 {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
                 }
             ],
-            "description": "A set of abstractions extracted out of the Symfony components",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "abstractions",
-                "contracts",
-                "decoupling",
-                "interfaces",
-                "interoperability",
-                "standards"
-            ],
-            "time": "2018-12-05T08:06:11+00:00"
+            "time": "2021-04-16T17:32:19+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.10.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
+                "reference": "5232de97ee3b75b0360528dae24e73db49566ab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
-                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
-                "shasum": ""
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/5232de97ee3b75b0360528dae24e73db49566ab1",
+                "reference": "5232de97ee3b75b0360528dae24e73db49566ab1",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=7.1"
             },
             "suggest": {
                 "ext-mbstring": "For best performance"
@@ -575,7 +844,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-main": "1.22-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -609,7 +882,283 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-09-21T13:07:52+00:00"
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.22.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-01-22T09:19:47+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php73",
+            "version": "v1.22.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php73.git",
+                "reference": "a678b42e92f86eca04b7fa4c0f6f19d097fb69e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/a678b42e92f86eca04b7fa4c0f6f19d097fb69e2",
+                "reference": "a678b42e92f86eca04b7fa4c0f6f19d097fb69e2",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.22-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php73\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.22.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-01-07T16:49:33+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.22.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "reference": "dc3063ba22c2a1fd2f45ed856374d79114998f91",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.22-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.22.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-01-07T16:49:33+00:00"
+        },
+        {
+            "name": "symfony/service-contracts",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/service-contracts.git",
+                "reference": "f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb",
+                "reference": "f040a30e04b57fbcc9c6cbcf4dbaa96bd318b9bb",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "psr/container": "^1.1"
+            },
+            "suggest": {
+                "symfony/service-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "2.4-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\Service\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Generic abstractions related to writing services",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/service-contracts/tree/v2.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-04-01T10:43:52+00:00"
         }
     ],
     "packages-dev": [],
@@ -621,5 +1170,6 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
